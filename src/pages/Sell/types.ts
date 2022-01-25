@@ -1,0 +1,21 @@
+export type PropsComponentSell = {
+  step: number;
+  setStep: (p: number) => void;
+  address?: string;
+  timeline?: string;
+  sellingReasons?: string[];
+  load: boolean;
+  setLoad: (p: boolean) => void;
+  wantBuyNewProperty?: boolean;
+  bedRoomsProps?: number;
+  bathRoomsProps?: number;
+  squareProps?: number;
+  yearProps?: number;
+  features?: string[];
+  problems?: string[];
+  token?: string;
+  remodels?: string[];
+  photos?: { id: number; image_url: string }[];
+  alreadyWorkWithAgent: boolean;
+  hasLender: boolean;
+};
